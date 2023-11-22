@@ -18,6 +18,7 @@ const Testimonials = ({ image, description, name, designation }: Props) => {
         <div className=" flex flex-col    bg-slate-200  lg:border-t-[90px]  sm: border-t-[50px]   border-white    pb-7 lg:h-[420px] sm: h-[500px] ">
           <p className="mt-20  text-xs  px-2  ">
             <span className="text-orange-700 text-3xl ">&#8220;</span>
+
             {description}
             <span className="text-orange-700 text-3xl py-0">&#8221;</span>
           </p>
