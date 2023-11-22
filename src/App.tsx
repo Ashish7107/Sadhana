@@ -28,7 +28,7 @@ function App() {
         </nav>
 
         <main className="flex-grow">
-          {/* <Intro /> */}
+          <Intro />
 
           <h1 className=" text-3xl text-purple-950 flex justify-center mb-12 pt-4">
             {" "}
