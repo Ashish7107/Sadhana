@@ -1,15 +1,11 @@
 import React from "react";
 import Button from "./Button";
+import image from "../assets/sadhana.png";
 
 const Intro = () => {
   return (
     <div className="  flex flex-row font-sans   relative pt-5">
-      <img
-        src="../src/assets/sadhana.png"
-        alt=""
-        className=" "
-        style={{ paddingLeft: "300px" }}
-      />
+      <img src={image} alt="" className=" " style={{ paddingLeft: "300px" }} />
       <div className="absolute  pt-40" style={{ paddingLeft: "340px" }}>
         <h1 className=" text-blue-500 " style={{ fontSize: "40px" }}>
           <b>Hello!</b> <br></br>{" "}
