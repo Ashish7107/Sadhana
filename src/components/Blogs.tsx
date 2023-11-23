@@ -19,7 +19,7 @@ const Blogs = ({ heading, image, text, link }: Props) => {
       </h1>
       <hr />
       <p className="text-sm px-2 pt-4 pb-4">{text}</p>
-      <button className="flex justify-center bg-blue-600 mx-24 w-24 mb-4 rounded-2xl">
+      <button className="flex justify-center bg-blue-600 mx-24 w-24 mb-4 rounded-2xl ">
         <a href={link} target="blank">
           <p className="flex justify-center text-white">Read Full Article</p>
         </a>

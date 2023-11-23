@@ -17,6 +17,7 @@ import { InfiniteSlider } from "./components/InfiniteSlider";
 import Blogs from "./components/Blogs";
 import Testimonials from "./components/Testimonials";
 import TestimonialCarousel from "./components/TestimonialCarousel";
+import SubHeading from "./components/SubHeading";
 
 function App() {
   const slides = [img1, img1, img1];
@@ -30,10 +31,7 @@ function App() {
         <main className="flex-grow">
           <div className="flex ">{/* <Intro /> */}</div>
 
-          <h1 className=" text-3xl text-purple-950 flex justify-center mb-12 pt-4">
-            {" "}
-            Area of Expertise
-          </h1>
+          <SubHeading name={"Area of Experties"} />
           <div className="md:flex md:flex-col-1 md:gap-8 pb-6 pl-9 justify-between ">
             <Card
               heading="Research"
@@ -65,17 +63,11 @@ function App() {
             />
           </div>
           <div className="pt-8">
-            <h1 className=" text-3xl text-purple-950 flex justify-center mb-12 pt-4">
-              {" "}
-              Industries
-              <hr className="w-10 text-lg" />
-            </h1>
+            <SubHeading name={"Industries"} />
             <InfiniteSlider />
           </div>
 
-          <h1 className=" text-3xl text-purple-950 flex justify-center mb-12 pt-4">
-            Blogs
-          </h1>
+          <SubHeading name={"Blogs"} />
           <div className="md:flex md:flex-col-1 md:gap-8 pb-6 pl-9 justify-between sm: space-y-6">
             <Blogs
               heading="Economy Degradation and Stepping Up of Automation"
@@ -106,10 +98,8 @@ function App() {
               }
             />
           </div>
-          <h1 className=" text-3xl text-purple-950 flex justify-center mb-12 pt-4">
-            Testimonials
-            <hr />
-          </h1>
+          <SubHeading name={"Testimonials"} />
+
           <div className="md:flex md:flex-col-1 md:gap-8 pb-6  justify-center">
             <TestimonialCarousel />
           </div>
