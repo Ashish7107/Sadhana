@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ["-apple-system", "BlinkMacSystemFont", "Arial"],
-      serif: ["Georgia", "Cambria"],
+      serif: ["Oswald", "Georgia", "Cambria"],
       mono: ["SFMono-Regular", "Menlo"],
       display: ["Oswald"],
       body: ["Open Sans"],

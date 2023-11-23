@@ -28,13 +28,13 @@ function App() {
         </nav>
 
         <main className="flex-grow">
-          <Intro />
+          <div className="flex ">{/* <Intro /> */}</div>
 
           <h1 className=" text-3xl text-purple-950 flex justify-center mb-12 pt-4">
             {" "}
             Area of Expertise
           </h1>
-          <div className="md:flex md:flex-col-1 md:gap-8 pb-6 pl-9 justify-between">
+          <div className="md:flex md:flex-col-1 md:gap-8 pb-6 pl-9 justify-between ">
             <Card
               heading="Research"
               image={image1}

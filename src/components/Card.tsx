@@ -14,8 +14,7 @@ const Card = ({ heading, image, text }: Props) => {
       <img
         src={image}
         alt=""
-        className=" flex  justify-center  px-32 h-[80px] "
-        style={{ height: "" }}
+        className=" flex px-4 md:px-8 lg:px-16 xl:px-32 h-[80px]"
       />
 
       <p className="text-sm  pt-16">{text}</p>

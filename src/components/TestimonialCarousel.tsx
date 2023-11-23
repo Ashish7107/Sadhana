@@ -63,7 +63,7 @@ const TestimonialCarousel: React.FC = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -126,7 +126,7 @@ const TestimonialCarousel: React.FC = () => {
   return (
     <Slider {...settings}>
       {cards.map((card, index) => (
-        <div key={index}>
+        <div key={index} className="">
           <Testimonials
             description={card.description}
             name={card.name}

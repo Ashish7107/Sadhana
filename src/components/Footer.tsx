@@ -19,11 +19,11 @@ const Footer = () => {
             <span className="text-teal-500">Sadhana Yadav</span>An engineer ,a
             ResearchAnalyst
           </h1>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
             numquam ex quia. At beatae reprehenderit, sed cupiditate officia
             blanditiis perspiciatis natus quam unde quibusdam numquam, qui,
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-col basis-2/4">
           <div className="flex flex-row text-2xl text-blue-800">
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
           <div className=" ">
-            <ul className=" flex flex-col  px-1 md:py-2 text-green-700">
+            <ul className=" flex flex-row text-xs  px-1 md:py-2 text-green-700">
               {links.map((link) => (
                 <li
                   key={link.name}
