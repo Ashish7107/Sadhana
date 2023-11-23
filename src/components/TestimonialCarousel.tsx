@@ -7,14 +7,23 @@ import image1 from "../assets/atul.jpeg";
 
 import Testimonials from "./Testimonials";
 import "./Carousel.css"; // Your custom styles
+import { Bold } from "react-feather";
 function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{
+        ...style,
+        display: "block",
+        fontSize: "18px", // Adjust the font size as needed
+        color: "red", // Arrow color
+        marginRight: "28px", // Adjust spacing from the right
+      }}
       onClick={onClick}
-    />
+    >
+      &#8594; {/* Unicode character for right arrow */}
+    </div>
   );
 }
 
@@ -23,9 +32,18 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any }) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{
+        ...style,
+        display: "block",
+        font: Bold,
+        fontSize: "18px ", // Adjust the font size as needed
+        color: "gray", // Arrow color
+        marginLeft: "-32px", // Adjust spacing from the left
+      }}
       onClick={onClick}
-    />
+    >
+      &#8592; {/* Unicode character for left arrow */}
+    </div>
   );
 }
 
