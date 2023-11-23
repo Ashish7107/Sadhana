@@ -106,7 +106,11 @@ function App() {
               }
             />
           </div>
-          <div className="md:flex md:flex-col-1 md:gap-8 pb-6 pl-9 justify-between">
+          <h1 className=" text-3xl text-purple-950 flex justify-center mb-12 pt-4">
+            Testimonials
+            <hr />
+          </h1>
+          <div className="md:flex md:flex-col-1 md:gap-8 pb-6  justify-center">
             <TestimonialCarousel />
           </div>
         </main>
