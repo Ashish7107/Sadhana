@@ -16,13 +16,13 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
       style={{
         ...style,
         display: "block",
-        fontSize: "18px", // Adjust the font size as needed
+        fontSize: "24px", // Adjust the font size as needed
         color: "red", // Arrow color
-        marginRight: "28px", // Adjust spacing from the right
+        marginRight: "10px", // Adjust spacing from the right
       }}
       onClick={onClick}
     >
-      &#8594; {/* Unicode character for right arrow */}
+      &#9654; {/* Unicode character for right arrow */}
     </div>
   );
 }
@@ -35,14 +35,13 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any }) {
       style={{
         ...style,
         display: "block",
-        font: Bold,
-        fontSize: "18px ", // Adjust the font size as needed
+        fontSize: "24px", // Adjust the font size as needed
         color: "gray", // Arrow color
-        marginLeft: "-32px", // Adjust spacing from the left
+        marginLeft: "-20px", // Adjust spacing from the left
       }}
       onClick={onClick}
     >
-      &#8592; {/* Unicode character for left arrow */}
+      &#9664; {/* Unicode character for left arrow */}
     </div>
   );
 }
