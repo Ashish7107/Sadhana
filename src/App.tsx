@@ -6,7 +6,7 @@ import image2 from "./assets/analysis.png";
 import image3 from "./assets/visualize.png";
 import image4 from "./assets/content.png";
 import image5 from "./assets/farmbill.jpeg";
-import image6 from "./assets/automation1.jpeg";
+import image6 from "./assets/automation1.png";
 import image7 from "./assets/automotive.png";
 
 import Carousel from "./components/Carousel";

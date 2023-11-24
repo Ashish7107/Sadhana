@@ -16,8 +16,8 @@ const Footer = () => {
       <footer className="bg-black p-5 text-white flex flex-row">
         <div className=" md:justify-between md:items-center sm:px-12 px-4 py-7 basis-2/4">
           <h1 className="lg:text-2xl text-1xl md:mb-0 mb-6 lg:leading-tight font-semibold md:w-2/5 ">
-            <span className="text-teal-500">Sadhana Yadav</span>An engineer ,a
-            ResearchAnalyst
+            <span className="text-teal-500">Sadhana Yadav</span> <br /> An
+            Engineer and Research Analyst
           </h1>
           {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus

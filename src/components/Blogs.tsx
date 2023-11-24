@@ -11,7 +11,7 @@ const Blogs = ({ heading, image, text, link }: Props) => {
       <img
         src={image}
         alt=""
-        className=" flex  justify-center px-10 pb-10  pt-6 "
+        className=" flex  justify-center px-10 pb-10  pt-6 w-fit"
       />
 
       <h1 className="text-blue-900 justify-center flex text-lg px-2">
