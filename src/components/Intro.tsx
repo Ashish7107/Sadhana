@@ -3,9 +3,9 @@ import Button from "./Button";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col md:flex-col lg:flex-row font-sans pt-5 bg-gray-300 pb-4 w-full justify-center rounded-lg md:mx-48">
+    <div className="flex flex-col md:flex-col lg:flex-row  pt-5 bg-gray-300 pb-4 w-full justify-center rounded-lg md:mx-48 h-full font-rounded">
       <div className="flex flex-row items-center justify-center">
-        <img src="/Sadhana.png" alt="" className="h-5/6" />
+        <img src="/Sadhana.png" alt="" className="h-5/6 " />
       </div>
       <div className="flex flex-col justify-start ml-4 md:pt-40">
         <h1 className="text-blue-500 text-4xl">
