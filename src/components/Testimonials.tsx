@@ -16,7 +16,7 @@ const Testimonials = ({ image, description, name, designation }: Props) => {
         <img
           src={image}
           alt=""
-          className=" absolute rounded-full border-8 border-white bg-white lg:h-36 lg:w-36 sm: h-20 sm: w-20 justify-center lg:mx-28 sm: mx-20  "
+          className=" absolute left-0 right-0 mx-auto  rounded-full border-8 border-white bg-white lg:h-36 lg:w-36 sm: h-20 sm: w-20  "
         />
         <div className=" flex flex-col   rounded-lg bg-slate-200 hover:bg-slate-400 lg:border-t-[90px]  sm: border-t-[50px]   border-white   lg:h-[450px]   sm: h-[520px] pb-7  ">
           <p className="mt-20  text-xs  px-2  text-center font-sans  text-gray-700">

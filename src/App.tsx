@@ -70,7 +70,7 @@ function App() {
           </div>
 
           <SubHeading name={"Blogs"} />
-          <div className="md:flex md:flex-col-1 md:gap-8 pb-6 pl-9 justify-between sm: space-y-6">
+          <div className="md:flex md:flex-col-1 md:gap-8 pb-6 px-9 justify-between sm: ">
             <Blogs
               heading="Economy Degradation and Stepping Up of Automation"
               image={image6}

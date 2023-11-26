@@ -9,11 +9,10 @@ interface Props {
 
 const Card = ({ heading, image, text }: Props) => {
   return (
-    <div className="  grid grid-cols-1    max-w-xs my-16 md:my-0">
-      <h1 className="text-blue-900 justify-center flex text-2xl ">{heading}</h1>
-      <img src={image} alt="" className=" flex px-32 h-[80px]" />
-
-      <p className="text-sm  pt-16">{text}</p>
+    <div className="flex flex-col items-center max-w-xs my-16 md:my-0">
+      <h1 className="text-blue-900 text-2xl my-4">{heading}</h1>
+      <img src={image} alt="" className="h-1/6  w-2/6 md:w-auto my-4" />
+      <p className="text-sm my-4">{text}</p>
     </div>
   );
 };

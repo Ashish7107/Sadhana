@@ -44,10 +44,6 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <Button
-                name={"Let's Connect"}
-                url="https://www.linkedin.com/in/ashish--kumar--yadav/"
-              ></Button>
             </ul>
           </div>
         </div>
