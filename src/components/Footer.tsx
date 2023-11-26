@@ -38,7 +38,10 @@ const Footer = () => {
               </a>
             </div>
             <div className="md:px-10 px-5">
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/sadhana-yadav-37a95a110/ "
+                target="blank"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </div>
