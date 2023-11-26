@@ -28,7 +28,7 @@ const Testimonials = ({ image, description, name, designation }: Props) => {
             </span>
           </p>
 
-          <p className="absolute bottom-5 text-sm lg:text-lg  text-orange-700  text-center ">
+          <p className="absolute right-0 left-0 mx-auto bottom-5 text-sm lg:text-lg  text-orange-700  text-center ">
             <b>{name}</b>
             <br />
             <span className="text-black text-xs px-2 text-center items-center">
