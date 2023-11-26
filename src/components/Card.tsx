@@ -9,7 +9,7 @@ interface Props {
 
 const Card = ({ heading, image, text }: Props) => {
   return (
-    <div className="  grid grid-cols-1    max-w-xs ">
+    <div className="  grid grid-cols-1    max-w-xs my-16 md:my-0">
       <h1 className="text-blue-900 justify-center flex text-2xl ">{heading}</h1>
       <img src={image} alt="" className=" flex px-32 h-[80px]" />
 
